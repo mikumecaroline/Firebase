@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/edtnamereg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="131dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter Full Name"
+        app:layout_constraintEnd_toEndOf="@+id/edtPassreg"
+        app:layout_constraintStart_toStartOf="@+id/edtPassreg"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtPassreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Enter Password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtemailreg" />
+
+    <Button
+        android:id="@+id/btncreatereg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="16dp"
+        android:text="CREATE ACCOUNT"
+        app:layout_constraintEnd_toEndOf="@+id/edtPassreg"
+        app:layout_constraintTop_toBottomOf="@+id/edtPassreg" />
+
+    <EditText
+        android:id="@+id/edtemailreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter Email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtnamereg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

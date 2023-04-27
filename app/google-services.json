@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "553039839353",
+    "project_id": "fir-app-carol",
+    "storage_bucket": "fir-app-carol.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553039839353:android:dad5eb7bf874032abf14a8",
+        "android_client_info": {
+          "package_name": "com.example.firebaseapp_carol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553039839353-6ab5i8mjqj4j3ms8kn7drkvc296gbd14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqO7ggtzSA0Ynww3QSEk_tVTluBkICVf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553039839353-6ab5i8mjqj4j3ms8kn7drkvc296gbd14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
