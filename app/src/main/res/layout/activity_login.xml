@@ -13,8 +13,8 @@
         android:layout_marginStart="3dp"
         android:layout_marginBottom="52dp"
         android:ems="10"
+        android:hint="Enter Email"
         android:inputType="text"
-        android:text="Enter email"
         app:layout_constraintBottom_toTopOf="@+id/edtpass"
         app:layout_constraintStart_toStartOf="@+id/edtpass" />
 
@@ -45,9 +45,9 @@
         android:layout_marginStart="74dp"
         android:layout_marginTop="261dp"
         android:ems="10"
+        android:hint="Enter Paassword"
         android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="Enter Password" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

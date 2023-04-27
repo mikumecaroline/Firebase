@@ -50,5 +50,12 @@ class LoginActivity : AppCompatActivity() {
 
 
         }
+
+
+        btncreateacc.setOnClickListener {
+            var gotoregister = Intent(this, RegisterActivity::class.java)
+            startActivity(gotoregister)
+            finish()
+        }
     }
 }

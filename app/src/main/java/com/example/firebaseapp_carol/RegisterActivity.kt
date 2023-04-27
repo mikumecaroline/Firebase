@@ -3,6 +3,7 @@ package com.example.firebaseapp_carol
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -42,10 +43,11 @@ class RegisterActivity : AppCompatActivity() {
                     if (it.isSuccessful){
                         Toast.makeText(this, "User Created Successfully", Toast.LENGTH_SHORT).show()
 
-                        var  gotomain = Intent(this, MainActivity::class.java)
+                        var  gotomain = Intent(this, LoginActivity::class.java)
                         startActivity(gotomain)
                         finish()
                     }else{
+                        Log.d("TAG", "ERROR---->", it.exception)
                         Toast.makeText(this, "Failed to create account", Toast.LENGTH_SHORT).show()
                     }
                 }

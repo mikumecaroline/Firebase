@@ -12,8 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="131dp"
         android:ems="10"
+        android:hint="Enter Full name"
         android:inputType="text"
-        android:text="Enter Full Name"
         app:layout_constraintEnd_toEndOf="@+id/edtPassreg"
         app:layout_constraintStart_toStartOf="@+id/edtPassreg"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,8 +25,8 @@
         android:layout_marginStart="87dp"
         android:layout_marginTop="72dp"
         android:ems="10"
+        android:hint="Enter Password"
         android:inputType="textPassword"
-        android:text="Enter Password"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtemailreg" />
 
@@ -35,7 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="65dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="17dp"
         android:text="CREATE ACCOUNT"
         app:layout_constraintEnd_toEndOf="@+id/edtPassreg"
         app:layout_constraintTop_toBottomOf="@+id/edtPassreg" />
@@ -47,8 +47,8 @@
         android:layout_marginStart="85dp"
         android:layout_marginTop="80dp"
         android:ems="10"
+        android:hint="Enter Email"
         android:inputType="text"
-        android:text="Enter Email"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtnamereg" />
 </androidx.constraintlayout.widget.ConstraintLayout>
