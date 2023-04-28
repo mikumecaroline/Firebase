@@ -7,25 +7,69 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/edtdata"
+        android:id="@+id/edtmake"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="83dp"
         android:layout_marginTop="135dp"
         android:ems="10"
-        android:hint="Enter Data"
+        android:hint="Enter Car Make"
         android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnsave"
+        android:id="@+id/btnphoto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="65dp"
-        android:text="Save Data
-"
-        app:layout_constraintStart_toStartOf="@+id/edtdata"
-        app:layout_constraintTop_toBottomOf="@+id/edtdata" />
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="60dp"
+        android:hint="Upload Car Photo"
+        app:layout_constraintStart_toStartOf="@+id/edtprice"
+        app:layout_constraintTop_toBottomOf="@+id/edtprice" />
+
+    <EditText
+        android:id="@+id/edtmodel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="Enter Car Model"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@+id/edtmake"
+        app:layout_constraintTop_toBottomOf="@+id/edtmake"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edtprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="Enter Car Price"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@+id/edtmodel"
+        app:layout_constraintTop_toBottomOf="@+id/edtmodel"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btndata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="36dp"
+        android:hint="Upload Car Data"
+        app:layout_constraintStart_toStartOf="@+id/btnphoto"
+        app:layout_constraintTop_toBottomOf="@+id/btnphoto" />
+
+    <Button
+        android:id="@+id/btnview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="43dp"
+        android:hint="VIEW UPLOADED CARS"
+        app:layout_constraintStart_toStartOf="@+id/btndata"
+        app:layout_constraintTop_toBottomOf="@+id/btndata"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
